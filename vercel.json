@@ -17,6 +17,10 @@
       "dest": "api.py"
     },
     {
+      "src": "/",
+      "dest": "dashboard-frontend/dist/index.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "dashboard-frontend/dist/$1"
     }
